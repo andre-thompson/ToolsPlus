@@ -19,14 +19,56 @@ public class ModItems {
 
         return item;
     }
-    public static final Item ULTRA_PICKAXE = register(
-            ModItemIDs.ULTRA_PICKAXE,
+    public static final Item WOOD_ULTRA_PICKAXE = register(
+            ModItemIDs.WOOD_ULTRA_PICKAXE,
+            Item::new,
+            new Item.Properties()
+    );
+    public static final Item STONE_ULTRA_PICKAXE = register(
+            ModItemIDs.STONE_ULTRA_PICKAXE,
+            Item::new,
+            new Item.Properties()
+    );
+    public static final Item COPPER_ULTRA_PICKAXE = register(
+            ModItemIDs.COPPER_ULTRA_PICKAXE,
+            Item::new,
+            new Item.Properties()
+    );
+    public static final Item IRON_ULTRA_PICKAXE = register(
+            ModItemIDs.IRON_ULTRA_PICKAXE,
+            Item::new,
+            new Item.Properties()
+    );
+    public static final Item GOLD_ULTRA_PICKAXE = register(
+            ModItemIDs.GOLD_ULTRA_PICKAXE,
+            Item::new,
+            new Item.Properties()
+    );
+    public static final Item DIAMOND_ULTRA_PICKAXE = register(
+            ModItemIDs.DIAMOND_ULTRA_PICKAXE,
+            Item::new,
+            new Item.Properties()
+    );
+    public static final Item NETHERITE_ULTRA_PICKAXE = register(
+            ModItemIDs.NETHERITE_ULTRA_PICKAXE,
             Item::new,
             new Item.Properties()
     );
     public static void initialize() {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
-                .register((creativeTab) -> creativeTab.accept(ModItems.ULTRA_PICKAXE));
+                .register((creativeTab) -> creativeTab.accept(ModItems.WOOD_ULTRA_PICKAXE));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.STONE_ULTRA_PICKAXE));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.COPPER_ULTRA_PICKAXE));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.IRON_ULTRA_PICKAXE));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.GOLD_ULTRA_PICKAXE));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.DIAMOND_ULTRA_PICKAXE));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.NETHERITE_ULTRA_PICKAXE));
     }
 }
 
