@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "toolsplus:item/gold_ultra_pickaxe"
+  }
+}
