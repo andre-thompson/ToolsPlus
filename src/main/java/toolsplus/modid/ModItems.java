@@ -6,6 +6,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ToolMaterial;
+
 import java.util.function.Function;
 
 
@@ -22,37 +24,37 @@ public class ModItems {
     public static final Item WOOD_ULTRA_PICKAXE = register(
             ModItemIDs.WOOD_ULTRA_PICKAXE,
             Item::new,
-            new Item.Properties()
+            new Item.Properties().pickaxe(ToolMaterial.WOOD, 1f,1f)
     );
     public static final Item STONE_ULTRA_PICKAXE = register(
             ModItemIDs.STONE_ULTRA_PICKAXE,
             Item::new,
-            new Item.Properties()
+            new Item.Properties().pickaxe(ToolMaterial.STONE, 1f, 1f)
     );
     public static final Item COPPER_ULTRA_PICKAXE = register(
             ModItemIDs.COPPER_ULTRA_PICKAXE,
             Item::new,
-            new Item.Properties()
+            new Item.Properties().pickaxe(ToolMaterial.COPPER,1f,1f)
     );
     public static final Item IRON_ULTRA_PICKAXE = register(
             ModItemIDs.IRON_ULTRA_PICKAXE,
             Item::new,
-            new Item.Properties()
+            new Item.Properties().pickaxe(ToolMaterial.IRON,1f,1f)
     );
     public static final Item GOLD_ULTRA_PICKAXE = register(
             ModItemIDs.GOLD_ULTRA_PICKAXE,
             Item::new,
-            new Item.Properties()
+            new Item.Properties().pickaxe(ToolMaterial.GOLD,1f,1f)
     );
     public static final Item DIAMOND_ULTRA_PICKAXE = register(
             ModItemIDs.DIAMOND_ULTRA_PICKAXE,
             Item::new,
-            new Item.Properties()
+            new Item.Properties().pickaxe(ToolMaterial.DIAMOND,1f,1f)
     );
     public static final Item NETHERITE_ULTRA_PICKAXE = register(
             ModItemIDs.NETHERITE_ULTRA_PICKAXE,
             Item::new,
-            new Item.Properties()
+            new Item.Properties().pickaxe(ToolMaterial.NETHERITE,1f,1f)
     );
     public static void initialize() {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
