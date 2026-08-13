@@ -17,11 +17,11 @@ import java.util.Set;
 
 public class UltraMiningHandler {
     private static final Set<Item> ULTRA_PICKAXES = Set.of(
-            ModItems.WOOD_ULTRA_PICKAXE,
+            ModItems.WOODEN_ULTRA_PICKAXE,
             ModItems.STONE_ULTRA_PICKAXE,
             ModItems.COPPER_ULTRA_PICKAXE,
             ModItems.IRON_ULTRA_PICKAXE,
-            ModItems.GOLD_ULTRA_PICKAXE,
+            ModItems.GOLDEN_ULTRA_PICKAXE,
             ModItems.DIAMOND_ULTRA_PICKAXE,
             ModItems.NETHERITE_ULTRA_PICKAXE
     );

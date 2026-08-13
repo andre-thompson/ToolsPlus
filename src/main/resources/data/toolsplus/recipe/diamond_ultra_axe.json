@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": "minecraft:diamond_axe"
+  },
+  "result": {
+    "id": "toolsplus:diamond_ultra_axe"
+  }
+}

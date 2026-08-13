@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "toolsplus:item/gold_ultra_pickaxe"
+    "layer0": "toolsplus:item/wooden_ultra_pickaxe"
   }
 }

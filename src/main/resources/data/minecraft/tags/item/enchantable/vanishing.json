@@ -1,11 +1,18 @@
 {
   "values": [
-    "toolsplus:wood_ultra_pickaxe",
+    "toolsplus:wooden_ultra_pickaxe",
     "toolsplus:stone_ultra_pickaxe",
     "toolsplus:copper_ultra_pickaxe",
     "toolsplus:iron_ultra_pickaxe",
-    "toolsplus:gold_ultra_pickaxe",
+    "toolsplus:golden_ultra_pickaxe",
     "toolsplus:diamond_ultra_pickaxe",
-    "toolsplus:netherite_ultra_pickaxe"
+    "toolsplus:netherite_ultra_pickaxe",
+    "toolsplus:wooden_ultra_axe",
+    "toolsplus:stone_ultra_axe",
+    "toolsplus:copper_ultra_axe",
+    "toolsplus:iron_ultra_axe",
+    "toolsplus:golden_ultra_axe",
+    "toolsplus:diamond_ultra_axe",
+    "toolsplus:netherite_ultra_axe"
   ]
 }

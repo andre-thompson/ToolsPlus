@@ -1,9 +1,16 @@
 {
-  "item.toolsplus.wood_ultra_pickaxe": "Wood Ultra Pickaxe",
+  "item.toolsplus.wooden_ultra_pickaxe": "Wooden Ultra Pickaxe",
   "item.toolsplus.stone_ultra_pickaxe": "Stone Ultra Pickaxe",
   "item.toolsplus.copper_ultra_pickaxe": "Copper Ultra Pickaxe",
   "item.toolsplus.iron_ultra_pickaxe": "Iron Ultra Pickaxe",
-  "item.toolsplus.gold_ultra_pickaxe": "Gold Ultra Pickaxe",
+  "item.toolsplus.golden_ultra_pickaxe": "Golden Ultra Pickaxe",
   "item.toolsplus.diamond_ultra_pickaxe": "Diamond Ultra Pickaxe",
-  "item.toolsplus.netherite_ultra_pickaxe": "Netherite Ultra Pickaxe"
+  "item.toolsplus.netherite_ultra_pickaxe": "Netherite Ultra Pickaxe",
+  "item.toolsplus.wooden_ultra_axe": "Wooden Ultra Axe",
+  "item.toolsplus.stone_ultra_axe": "Stone Ultra Axe",
+  "item.toolsplus.copper_ultra_axe": "Copper Ultra Axe",
+  "item.toolsplus.iron_ultra_axe": "Iron Ultra Axe",
+  "item.toolsplus.golden_ultra_axe": "Golden Ultra Axe",
+  "item.toolsplus.diamond_ultra_axe": "Diamond Ultra Axe",
+  "item.toolsplus.netherite_ultra_axe": "Netherite Ultra Axe"
 }

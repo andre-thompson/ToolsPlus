@@ -26,6 +26,7 @@ public class ToolsPlus implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.initialize();
 		UltraMiningHandler.initialize();
+		UltraAxeHandler.initialize();
 	}
 
 	public static Identifier id(String path) {

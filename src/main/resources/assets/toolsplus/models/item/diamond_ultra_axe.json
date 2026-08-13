@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "toolsplus:item/diamond_ultra_axe"
+  }
+}

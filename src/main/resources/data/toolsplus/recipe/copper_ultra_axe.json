@@ -6,9 +6,9 @@
     "   "
   ],
   "key": {
-    "#": "minecraft:golden_pickaxe"
+    "#": "minecraft:copper_axe"
   },
   "result": {
-    "id": "toolsplus:gold_ultra_pickaxe"
+    "id": "toolsplus:copper_ultra_axe"
   }
 }
