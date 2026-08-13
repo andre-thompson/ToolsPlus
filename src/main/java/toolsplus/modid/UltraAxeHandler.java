@@ -84,6 +84,8 @@ public class UltraAxeHandler {
             return;
         }
 
+        int damageBeforeExtra = heldStack.getDamageValue();
+
         CHOPPING_EXTRA.set(true);
         try {
             for (BlockPos logPos : toBreak) {
@@ -91,6 +93,12 @@ public class UltraAxeHandler {
             }
         } finally {
             CHOPPING_EXTRA.set(false);
+        }
+
+        // the extra logs broken above each damage the tool same as a normal
+        // break; undo that so only the original block's hit counts
+        if (!heldStack.isEmpty()) {
+            heldStack.setDamageValue(damageBeforeExtra);
         }
     }
 }

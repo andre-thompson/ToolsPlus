@@ -47,6 +47,7 @@ public class UltraMiningHandler {
         }
 
         Direction.Axis axis = player.getNearestViewDirection().getAxis();
+        int damageBeforeExtra = heldStack.getDamageValue();
 
         MINING_EXTRA.set(true);
         try {
@@ -57,6 +58,12 @@ public class UltraMiningHandler {
             }
         } finally {
             MINING_EXTRA.set(false);
+        }
+
+        // the extra blocks broken above each damage the tool same as a
+        // normal break; undo that so only the original block's hit counts
+        if (!heldStack.isEmpty()) {
+            heldStack.setDamageValue(damageBeforeExtra);
         }
     }
 
