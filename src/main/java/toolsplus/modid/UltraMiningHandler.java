@@ -16,14 +16,21 @@ import java.util.List;
 import java.util.Set;
 
 public class UltraMiningHandler {
-    private static final Set<Item> ULTRA_PICKAXES = Set.of(
+    private static final Set<Item> ULTRA_MINING_TOOLS = Set.of(
             ModItems.WOODEN_ULTRA_PICKAXE,
             ModItems.STONE_ULTRA_PICKAXE,
             ModItems.COPPER_ULTRA_PICKAXE,
             ModItems.IRON_ULTRA_PICKAXE,
             ModItems.GOLDEN_ULTRA_PICKAXE,
             ModItems.DIAMOND_ULTRA_PICKAXE,
-            ModItems.NETHERITE_ULTRA_PICKAXE
+            ModItems.NETHERITE_ULTRA_PICKAXE,
+            ModItems.WOODEN_ULTRA_SHOVEL,
+            ModItems.STONE_ULTRA_SHOVEL,
+            ModItems.COPPER_ULTRA_SHOVEL,
+            ModItems.IRON_ULTRA_SHOVEL,
+            ModItems.GOLDEN_ULTRA_SHOVEL,
+            ModItems.DIAMOND_ULTRA_SHOVEL,
+            ModItems.NETHERITE_ULTRA_SHOVEL
     );
 
     // guards against the extra blocks we break re-triggering this same handler
@@ -42,7 +49,7 @@ public class UltraMiningHandler {
         }
 
         ItemStack heldStack = player.getMainHandItem();
-        if (!ULTRA_PICKAXES.contains(heldStack.getItem())) {
+        if (!ULTRA_MINING_TOOLS.contains(heldStack.getItem())) {
             return;
         }
 

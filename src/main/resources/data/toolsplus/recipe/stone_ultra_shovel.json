@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": "minecraft:stone_shovel"
+  },
+  "result": {
+    "id": "toolsplus:stone_ultra_shovel"
+  }
+}

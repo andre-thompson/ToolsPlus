@@ -23,4 +23,12 @@ public class ModItemIDs {
     public static final ResourceKey<Item> GOLDEN_ULTRA_AXE = create("golden_ultra_axe");
     public static final ResourceKey<Item> DIAMOND_ULTRA_AXE = create("diamond_ultra_axe");
     public static final ResourceKey<Item> NETHERITE_ULTRA_AXE = create("netherite_ultra_axe");
+
+    public static final ResourceKey<Item> WOODEN_ULTRA_SHOVEL = create("wooden_ultra_shovel");
+    public static final ResourceKey<Item> STONE_ULTRA_SHOVEL = create("stone_ultra_shovel");
+    public static final ResourceKey<Item> COPPER_ULTRA_SHOVEL = create("copper_ultra_shovel");
+    public static final ResourceKey<Item> IRON_ULTRA_SHOVEL = create("iron_ultra_shovel");
+    public static final ResourceKey<Item> GOLDEN_ULTRA_SHOVEL = create("golden_ultra_shovel");
+    public static final ResourceKey<Item> DIAMOND_ULTRA_SHOVEL = create("diamond_ultra_shovel");
+    public static final ResourceKey<Item> NETHERITE_ULTRA_SHOVEL = create("netherite_ultra_shovel");
 }

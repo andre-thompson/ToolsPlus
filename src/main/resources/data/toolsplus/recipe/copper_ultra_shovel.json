@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": "minecraft:copper_shovel"
+  },
+  "result": {
+    "id": "toolsplus:copper_ultra_shovel"
+  }
+}

@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ToolMaterial;
 
 import java.util.function.Function;
@@ -93,6 +94,42 @@ public class ModItems {
             settings -> new AxeItem(ToolMaterial.NETHERITE, 1F, 1F, settings),
             new Item.Properties()
     );
+    public static final Item WOODEN_ULTRA_SHOVEL = register(
+            ModItemIDs.WOODEN_ULTRA_SHOVEL,
+            settings -> new ShovelItem(ToolMaterial.WOOD, 1F, 1F, settings),
+            new Item.Properties()
+    );
+    public static final Item STONE_ULTRA_SHOVEL = register(
+            ModItemIDs.STONE_ULTRA_SHOVEL,
+            settings -> new ShovelItem(ToolMaterial.STONE, 1F, 1F, settings),
+            new Item.Properties()
+    );
+    public static final Item COPPER_ULTRA_SHOVEL = register(
+            ModItemIDs.COPPER_ULTRA_SHOVEL,
+            settings -> new ShovelItem(ToolMaterial.COPPER, 1F, 1F, settings),
+            new Item.Properties()
+    );
+    public static final Item IRON_ULTRA_SHOVEL = register(
+            ModItemIDs.IRON_ULTRA_SHOVEL,
+            settings -> new ShovelItem(ToolMaterial.IRON, 1F, 1F, settings),
+            new Item.Properties()
+    );
+    public static final Item GOLDEN_ULTRA_SHOVEL = register(
+            ModItemIDs.GOLDEN_ULTRA_SHOVEL,
+            settings -> new ShovelItem(ToolMaterial.GOLD, 1F, 1F, settings),
+            new Item.Properties()
+    );
+    public static final Item DIAMOND_ULTRA_SHOVEL = register(
+            ModItemIDs.DIAMOND_ULTRA_SHOVEL,
+            settings -> new ShovelItem(ToolMaterial.DIAMOND, 1F, 1F, settings),
+            new Item.Properties()
+    );
+    public static final Item NETHERITE_ULTRA_SHOVEL = register(
+            ModItemIDs.NETHERITE_ULTRA_SHOVEL,
+            settings -> new ShovelItem(ToolMaterial.NETHERITE, 1F, 1F, settings),
+            new Item.Properties()
+    );
+
     public static void initialize() {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
                 .register((creativeTab) -> creativeTab.accept(ModItems.WOODEN_ULTRA_PICKAXE));
@@ -123,6 +160,21 @@ public class ModItems {
                 .register((creativeTab) -> creativeTab.accept(ModItems.DIAMOND_ULTRA_AXE));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
                 .register((creativeTab) -> creativeTab.accept(ModItems.NETHERITE_ULTRA_AXE));
+
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.WOODEN_ULTRA_SHOVEL));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.STONE_ULTRA_SHOVEL));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.COPPER_ULTRA_SHOVEL));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.IRON_ULTRA_SHOVEL));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.GOLDEN_ULTRA_SHOVEL));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.DIAMOND_ULTRA_SHOVEL));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.NETHERITE_ULTRA_SHOVEL));
     }
 }
 
